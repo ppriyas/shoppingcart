@@ -13,7 +13,7 @@
 <body>
 <div class="container">
     <h1>Shopping Cart</h1>
-    <form:form id="entry_form" method="post" action="/addorupdate" commandName="cartitem" role="form">
+    <form:form id="entry_form" method="post" action="/shoppingcart/addorupdate" commandName="cartitem" role="form">
         <div class="form-group">
             <form:label path="productName">Product Name:</form:label>
             <form:input id="productName" path="productName" class="form-control" placeholder="Product Name"/>

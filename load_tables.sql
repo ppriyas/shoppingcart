@@ -5,4 +5,4 @@ create table cartitem(id bigint not null auto_increment,
     primary key (id)
 );
 
-		
+insert into cartitem values(1,'abc',2.0,1);		
